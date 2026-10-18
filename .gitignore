@@ -1,0 +1,26 @@
+# --- secrets: NEVER commit ---
+.env
+.env.*
+
+# --- Python environment ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# --- downloaded data (large, can be re-downloaded) ---
+data/
+
+
+
+# --- code you do not want public yet ---
+src/optimization1.py
+
+# --- scratch files ---
+src/practicepy.py
+src/chart.py
+
+
+# --- log files (may contain login/session details) ---
+logs/
+*.log
